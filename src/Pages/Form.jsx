@@ -27,7 +27,7 @@ const ConsultantForm = () => {
         name, email, phoneNumber, consultantService
       })
     }
-    const res = await fetch('https://consultantapp-1154a-default-rtdb.firebaseio.com/form', options)
+    const res = await fetch('https://consultantapp-1154a-default-rtdb.firebaseio.com/form.json', options)
 
     console.log(res)
     if(res){
