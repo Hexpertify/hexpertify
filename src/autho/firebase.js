@@ -10,6 +10,7 @@ import { getFirestore } from 'firebase/firestore';
 const firebaseConfig = {
   apiKey: "AIzaSyAD7K5-pBQIodKJfO0tsUbvQvjPw7K7YeU",
   authDomain: "consultantapp-1154a.firebaseapp.com",
+  databaseURL: "https://consultantapp-1154a-default-rtdb.firebaseio.com",
   projectId: "consultantapp-1154a",
   storageBucket: "consultantapp-1154a.appspot.com",
   messagingSenderId: "225633595064",
